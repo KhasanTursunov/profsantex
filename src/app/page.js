@@ -1,6 +1,7 @@
 import Header from "@/components/Header";
 import Showcase from "@/components/Showcase";
 import XizmatNarxi from "@/components/XizmatNarxi";
+import MasterlarTajribasi from "@/components/MasterlarTajribasi";
 import Image from "next/image";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
     <Header/>
     <Showcase/>
     <XizmatNarxi/>
+    <MasterlarTajribasi/>
    </div>
   );
 }

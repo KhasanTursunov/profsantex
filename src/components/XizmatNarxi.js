@@ -8,12 +8,16 @@ import Xizmat5 from '@/assets/svg/xizmat5.svg'
 import Xizmat6 from '@/assets/svg/xizmat6.svg'
 const XizmatNarxi = () => {
   return (
-    <div className='mt-10 my-10'>
+    <div className="mt-10 my-10">
       <div className="container p-6 max-w-7xl mx-auto">
-        <div className='grid grid-cols-3 gap-8'>
-      
+        <div className="title my-20">
+          <h2 className="font-bold text-[33px] leading-[31px] tracking-[0%] align-middle text-[#2C333D]">
+            Xizmat Narxi
+          </h2>
+        </div>
+        <div className="grid grid-cols-3 gap-8">
           <div className="card flex flex-col gap-4 w-[308px] h-[328px]  bg-white hover:bg-gray-100 shadow-lg cursor-pointer">
-            <div className='p-1'>
+            <div className="p-1">
               <Image src={Xizmat7} alt="xizmat1" />
             </div>
             <div className="flex flex-col gap-2 text-center">
@@ -36,7 +40,7 @@ align-bottom text-white"
           </div>
 
           <div className="card flex flex-col gap-4 w-[308px] h-[328px]  bg-white hover:bg-gray-100 shadow-lg cursor-pointer">
-            <div className='p-1'>
+            <div className="p-1">
               <Image src={Xizmat2} alt="xizmat1" />
             </div>
             <div className="flex flex-col gap-2 text-center">
@@ -59,7 +63,7 @@ align-bottom text-white"
           </div>
 
           <div className="card flex flex-col gap-4 w-[308px] h-[328px]  bg-white hover:bg-gray-100 shadow-lg cursor-pointer">
-            <div className='p-1'>
+            <div className="p-1">
               <Image src={Xizmat3} alt="xizmat1" />
             </div>
             <div className="flex flex-col gap-2 text-center">
@@ -82,7 +86,7 @@ align-bottom text-white"
           </div>
 
           <div className="card flex flex-col gap-4 w-[308px] h-[328px]  bg-white hover:bg-gray-100 shadow-lg cursor-pointer">
-            <div className='p-1'>
+            <div className="p-1">
               <Image src={Xizmat6} alt="xizmat1" />
             </div>
             <div className="flex flex-col gap-2 text-center">
@@ -105,7 +109,7 @@ align-bottom text-white"
           </div>
 
           <div className="card flex flex-col gap-4 w-[308px] h-[328px]  bg-white hover:bg-gray-100 shadow-lg cursor-pointer">
-            <div className='p-1'>
+            <div className="p-1">
               <Image src={Xizmat5} alt="xizmat1" />
             </div>
             <div className="flex flex-col gap-2 text-center">
@@ -128,7 +132,7 @@ align-bottom text-white"
           </div>
 
           <div className="card flex flex-col gap-4 w-[308px] h-[328px]  bg-white hover:bg-gray-100 shadow-lg cursor-pointer">
-            <div className='p-1'>
+            <div className="p-1">
               <Image src={Xizmat4} alt="xizmat1" />
             </div>
             <div className="flex flex-col gap-2 text-center">
@@ -149,7 +153,6 @@ align-bottom text-white"
               </a>
             </div>
           </div>
-
         </div>
       </div>
     </div>
