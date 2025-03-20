@@ -32,3 +32,59 @@ body {
   background-position: center;
   
 }
+
+
+.posoitionn{
+  background: url('../assets/svg/xizmat7.svg');
+  width: 350px;
+  height: 176px;
+  background-size: contain;
+
+  background-repeat: no-repeat;
+  
+}
+
+.posoitionn2{
+  background: url('../assets/svg/xizmat5.svg');
+  width: 390px;
+  height: 176px;
+  background-repeat: no-repeat;
+  
+}
+
+
+.hamkorlik{
+  background: url('../assets/img/hamkorlik.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: right;
+}
+
+.hamkorlik2{
+  background: url('../assets/svg/hamkorlik2.svg');
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+
+}
+
+
+.posoitionn3{
+  background: url('../assets/svg/xizmat8.svg');
+  width: 390px;
+  height: 176px;
+  background-repeat: no-repeat;
+  background-size: contain;
+  
+}
+
+.posoitionn4{
+  background: url('../assets/svg/xizmat10.svg');
+  width: 390px;
+  height: 176px;
+  background-repeat: no-repeat;
+  background-size: contain;
+
+
+  
+}

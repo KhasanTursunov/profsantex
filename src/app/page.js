@@ -2,7 +2,8 @@ import Header from "@/components/Header";
 import Showcase from "@/components/Showcase";
 import XizmatNarxi from "@/components/XizmatNarxi";
 import MasterlarTajribasi from "@/components/MasterlarTajribasi";
-import Image from "next/image";
+import Hamkorlik from "@/components/Hamkorlik";
+import Hamkorlik2 from "@/components/Hamkorlik2";
 
 export default function Home() {
   return (
@@ -11,6 +12,8 @@ export default function Home() {
     <Showcase/>
     <XizmatNarxi/>
     <MasterlarTajribasi/>
+    <Hamkorlik/>
+    <Hamkorlik2/>
    </div>
   );
 }
